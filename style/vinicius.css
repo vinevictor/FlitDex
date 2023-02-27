@@ -304,10 +304,10 @@ img {
   border-radius: 0.8vh;
 }
 
-.maker1 {
+.marker1 {
   position: absolute;
   top: 0.1vh;
-  left: 30vw;
+  left: 0vw;
   transform: translate(-50%, -50%);
 
   background-color: red;
@@ -328,10 +328,10 @@ img {
   border-radius: 0.8vh;
 }
 
-.maker2 {
+.marker2 {
   position: absolute;
   top: 0.1vh;
-  left: 10vw;
+  left: 0vw;
   transform: translate(-50%, -50%);
 
   background-color: red;
@@ -352,10 +352,10 @@ img {
   border-radius: 0.8vh;
 }
 
-.maker3 {
+.marker3 {
   position: absolute;
   top: 0.1vh;
-  left: 14vw;
+  left: 0vw;
   transform: translate(-50%, -50%);
 
   background-color: red;
@@ -376,10 +376,10 @@ img {
   border-radius: 0.8vh;
 }
 
-.maker4 {
+.marker4 {
   position: absolute;
   top: 0.1vh;
-  left: 2vw;
+  left: 0vw;
   transform: translate(-50%, -50%);
 
   background-color: red;
@@ -400,10 +400,10 @@ img {
   border-radius: 0.8vh;
 }
 
-.maker5 {
+.marker5 {
   position: absolute;
   top: 0.1vh;
-  left: 18vw;
+  left: 0vw;
   transform: translate(-50%, -50%);
 
   background-color: red;
@@ -424,10 +424,10 @@ img {
   border-radius: 0.8vh;
 }
 
-.maker6 {
+.marker6 {
   position: absolute;
   top: 0.1vh;
-  left: 18vw;
+  left: 0vw;
   transform: translate(-50%, -50%);
 
   background-color: red;
@@ -448,10 +448,10 @@ img {
   border-radius: 0.8vh;
 }
 
-.maker7 {
+.marker7 {
   position: absolute;
   top: 0.1vh;
-  left: 13vw;
+  left: 0vw;
   transform: translate(-50%, -50%);
 
   background-color: red;

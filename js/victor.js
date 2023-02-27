@@ -1,27 +1,27 @@
 var editar = document.querySelector('button[class="editar"]');
 var divTexto = document.querySelector('div[id="textId"]');
 
-var textoSalvoLocal = "";
+var textoSalvo = "";
 
 editar.addEventListener("click", (event) => {
   let newText = (divTexto.innerHTML = prompt("Digite o Texto:"));
   if (newText === "") {
-    divTexto.innerHTML = texto;
+    divTexto.innerHTML = textoSalvo;
   } else if (newText) {
     newText;
     divTexto.value = newText;
-    window.localStorage.setItem("textoSalvoLocal", newText);
+    window.localStorage.setItem("textoSalvoLocalVictor", newText);
   } else {
-    divTexto.innerHTML = texto;
+    divTexto.innerHTML = textoSalvo;
   }
 });
 
-if (window.localStorage.getItem("textoSalvoLocal") != undefined) {
+if (window.localStorage.getItem("textoSalvoLocalVictor") != undefined) {
   window.addEventListener("load", ValorLocalStorage);
 }
 
 function ValorLocalStorage() {
-  divTexto.innerHTML = window.localStorage.getItem("textoSalvoLocal");
+  divTexto.innerHTML = window.localStorage.getItem("textoSalvoLocalVictor");
 }
 
 let marker1 = document.getElementById("marker1");

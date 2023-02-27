@@ -1,0 +1,463 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ol,
+  ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    background-color: #042940;
+  }
+  
+  ol,
+  ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .header {
+    display: inline-block;
+    width: 100vw;
+    margin: auto;
+    height: 10vh;
+    line-height: 10vh;
+  }
+  
+  .header img {
+    vertical-align: middle;
+    margin-left: 3vw;
+  }
+  
+  .navOptions {
+    float: right;
+    width: 30vw;
+  }
+  
+  .navOptions a {
+    text-decoration: none !important;
+    float: left;
+    margin: 0vw 1vw;
+    font-size: 25px;
+    color: white;
+  }
+  
+  .content {
+    row-gap: 0.8vh;
+    column-gap: 0.8vw;
+    display: grid;
+    justify-content: center;
+    align-content: start;
+    height: 90vh;
+    background-color: #042940;
+    grid-template-columns: 47.5vw 47.5vw;
+    grid-template-rows: 42.5vh 42.5vh;
+  }
+  
+  .item1 {
+    display: grid;
+    background-color: #042940;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    grid-template-columns: 16vw 25vw;
+    grid-template-rows: 32vh;
+  }
+  
+  .item2 {
+    display: grid;
+    background-color: #042940;
+    grid-column: 1 / 2;
+    grid-row: 2 / 2;
+    justify-content: center;
+    align-content: start;
+  }
+  
+  .item3 {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: #042940;
+    grid-column: 2 / 2;
+    grid-row: 1 / span 2;
+  }
+  
+  .victorFoto {
+    margin-top: 2vh;
+    margin-left: 1vw;
+    height: 30vh;
+    width: 13vw;
+  }
+  
+  .nomeInfo {
+    width: 20vw;
+    height: 25vh;
+  }
+  
+  .nomeInfo h1 {
+    margin-top: 3vh;
+    font-size: 4vh;
+    color: white;
+  }
+  
+  .nomeInfo h4 {
+    margin-top: 3vh;
+    font-size: 1.5vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+  }
+  
+  .infos {
+    height: 15vh;
+    width: 15vw;
+    margin-top: 5vh;
+    margin-left: 2vh;
+  }
+  
+  .lista {
+    font-size: 1.8vh;
+    font-family: sans-serif;
+    color: white;
+    list-style-type: disc;
+    line-height: 2.5vh;
+  }
+  
+  .linha {
+    margin-top: 8.5vh;
+    margin-left: 1.2vw;
+    height: 0.3vh;
+    width: 45vw;
+    background-color: #525031;
+  }
+  
+  .nomeInfo2 {
+    margin-top: 2vh;
+    font-size: 3.5vh;
+    height: 5vh;
+    font-family: sans-serif;
+    color: white;
+  }
+  
+  .fontText {
+    font-family: cursive;
+  }
+  
+  .contentItem2 {
+    margin-top: 1vh;
+    height: 25vh;
+    width: 41.7vw;
+    font-size: 2.3vh;
+    color: white;
+    font-family: sans-serif;
+  }
+  
+  .botao {
+    display: flex;
+    height: 5vh;
+    width: 43vw;
+    margin-top: 4vh;
+  }
+  
+  .anterior {
+    height: 4vh;
+    width: 8vw;
+    margin-right: 3vw;
+    border-radius: 1vh;
+    background-color: #dbf227;
+    font-size: 2vh;
+    cursor: pointer;
+  }
+  
+  .proximo {
+    height: 4vh;
+    width: 8vw;
+    border-radius: 1vh;
+    background-color: #dbf227;
+    font-size: 2vh;
+    cursor: pointer;
+  }
+  
+  .editar {
+    margin-left: 13vw;
+    height: 4vh;
+    width: 7vw;
+    border-radius: 1vh;
+    background-color: #dbf227;
+    font-size: 2vh;
+    cursor: pointer;
+  }
+  
+  .gridPersonalidade {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 82vh;
+    width: 45vw;
+    background-color: #dbf227;
+  }
+  
+  .titulo {
+    width: 41.5vw;
+    margin-top: 4vh;
+    margin-left: 4.5vw;
+    margin-bottom: 4vh;
+    font-size: 3.5vh;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+  }
+  
+  .itens {
+    display: grid;
+    grid-template-columns: 36vw;
+    grid-template-rows: 9.28vh 9.28vh 9.28vh 9.28vh 9.28vh 9.28vh 9.28vh;
+    height: 65vh;
+    width: 36vw;
+    background-color: #dbf227;
+    margin-bottom: 6.1vh;
+    margin-left: 5vw;
+  }
+  
+  .personalidade1 {
+    height: 9.28vh;
+    width: 36vw;
+    grid-area: 1 / 1 / 1 / 1;
+  }
+  
+  .personalidad2 {
+    height: 9.28vh;
+    width: 36vw;
+    grid-area: 2 / 1 / 2 / 1;
+  }
+  
+  .personalidade3 {
+    height: 9.28vh;
+    width: 36vw;
+    grid-area: 3 / 1 / 3 / 1;
+  }
+  
+  .personalidade4 {
+    height: 9.28vh;
+    width: 36vw;
+    grid-area: 4 / 1 / 4 / 1;
+  }
+  
+  .personalidade5 {
+    height: 9.28vh;
+    width: 36vw;
+    grid-area: 5 / 1 / 5 / 1;
+  }
+  
+  .personalidade6 {
+    height: 9.28vh;
+    width: 36vw;
+    grid-area: 6 / 1 / 6 / 1;
+  }
+  
+  .personalidade7 {
+    height: 9.28vh;
+    width: 36vw;
+    grid-area: 7 / 1 / 7 / 1;
+  }
+  
+  .fontPersonalidade {
+    font-style: italic;
+    font-family: cursive;
+    font-size: 2vh;
+    margin-top: 0.5vh;
+    float: left;
+  }
+  
+  .fontPersonalidade2 {
+    font-style: italic;
+    font-family: cursive;
+    font-size: 2vh;
+    margin-top: 0.5vh;
+    float: right;
+  }
+  
+  .bar1 {
+    margin-top: 5vh;
+    position: relative;
+  
+    background-color: black;
+  
+    width: 36vw;
+    height: 0.2vh;
+    border-radius: 0.8vh;
+  }
+  
+  .marker1 {
+    position: absolute;
+    top: 0.1vh;
+    left: 0vw;
+    transform: translate(-50%, -50%);
+  
+    background-color: red;
+  
+    border-radius: 20px;
+    height: 2vh;
+    width: 3vw;
+  }
+  
+  .bar2 {
+    margin-top: 5vh;
+    position: relative;
+  
+    background-color: black;
+  
+    width: 36vw;
+    height: 0.2vh;
+    border-radius: 0.8vh;
+  }
+  
+  .marker2 {
+    position: absolute;
+    top: 0.1vh;
+    left: 0vw;
+    transform: translate(-50%, -50%);
+  
+    background-color: red;
+  
+    border-radius: 20px;
+    height: 2vh;
+    width: 3vw;
+  }
+  
+  .bar3 {
+    margin-top: 5vh;
+    position: relative;
+  
+    background-color: black;
+  
+    width: 36vw;
+    height: 0.2vh;
+    border-radius: 0.8vh;
+  }
+  
+  .marker3 {
+    position: absolute;
+    top: 0.1vh;
+    left: 0vw;
+    transform: translate(-50%, -50%);
+  
+    background-color: red;
+  
+    border-radius: 20px;
+    height: 2vh;
+    width: 3vw;
+  }
+  
+  .bar4 {
+    margin-top: 5vh;
+    position: relative;
+  
+    background-color: black;
+  
+    width: 36vw;
+    height: 0.2vh;
+    border-radius: 0.8vh;
+  }
+  
+  .marker4 {
+    position: absolute;
+    top: 0.1vh;
+    left: 0vw;
+    transform: translate(-50%, -50%);
+  
+    background-color: red;
+  
+    border-radius: 20px;
+    height: 2vh;
+    width: 3vw;
+  }
+  
+  .bar5 {
+    margin-top: 5vh;
+    position: relative;
+  
+    background-color: black;
+  
+    width: 36vw;
+    height: 0.3vh;
+    border-radius: 0.8vh;
+  }
+  
+  .marker5 {
+    position: absolute;
+    top: 0.1vh;
+    left: 0vw;
+    transform: translate(-50%, -50%);
+  
+    background-color: red;
+  
+    border-radius: 20px;
+    height: 2vh;
+    width: 3vw;
+  }
+  
+  .bar6 {
+    margin-top: 5vh;
+    position: relative;
+  
+    background-color: black;
+  
+    width: 36vw;
+    height: 0.2vh;
+    border-radius: 0.8vh;
+  }
+  
+  .marker6 {
+    position: absolute;
+    top: 0.1vh;
+    left: 0vw;
+    transform: translate(-50%, -50%);
+  
+    background-color: red;
+  
+    border-radius: 20px;
+    height: 2vh;
+    width: 3vw;
+  }
+  
+  .bar7 {
+    margin-top: 5vh;
+    position: relative;
+  
+    background-color: black;
+  
+    width: 36vw;
+    height: 0.2vh;
+    border-radius: 0.8vh;
+  }
+  
+  .marker7 {
+    position: absolute;
+    top: 0.1vh;
+    left: 0vw;
+    transform: translate(-50%, -50%);
+  
+    background-color: red;
+  
+    border-radius: 20px;
+    height: 2vh;
+    width: 3vw;
+  }
+  
